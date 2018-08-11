@@ -11,5 +11,11 @@ public class SinglePatternMain {
 		object = SingleObjectStaticBlock.getInstance();
 		
 		object.showMessage();
+
+		SingleObjectInstanceMember secondObject = SingleObjectInstanceMember.INSTANCE;
+		secondObject = SingleObjectInstanceMember.INSTANCE;
+		secondObject = SingleObjectInstanceMember.INSTANCE;
+		secondObject = SingleObjectInstanceMember.INSTANCE;
+		SingleObjectInstanceMember.showMessage();
 	}
 }

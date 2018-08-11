@@ -3,12 +3,12 @@ package example;
 public class SinglePatternMain {
 
 	public static void main(String[] args){
-		SingleObject object = SingleObject.getInstance();
-		object = SingleObject.getInstance();
-		object = SingleObject.getInstance();
-		object = SingleObject.getInstance();
-		object = SingleObject.getInstance();
-		object = SingleObject.getInstance();
+		SingleObjectStaticBlock object = SingleObjectStaticBlock.getInstance();
+		object = SingleObjectStaticBlock.getInstance();
+		object = SingleObjectStaticBlock.getInstance();
+		object = SingleObjectStaticBlock.getInstance();
+		object = SingleObjectStaticBlock.getInstance();
+		object = SingleObjectStaticBlock.getInstance();
 		
 		object.showMessage();
 	}
